@@ -19,4 +19,4 @@ The training is done online by using the collected reward from each action selec
 The script outputs a comparison plot between the Deep Q-learning approach and the current state of the art that always tries to enforce maximum security.
 
 
-![alt text](https://raw.githubusercontent.com/ficoncei/iot-survival/branch/path/to/system model.png)
+![alt text](https://raw.githubusercontent.com/ficoncei/iot-survival/branch/path/to/systemmodel.png)
