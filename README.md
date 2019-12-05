@@ -16,5 +16,5 @@ The neural network has:
 The training is done online by using the collected reward from each action selection as an input to the Mean Squared Error function , to compare with the current action preference given by the current neural network weight set.
 
 # Outputs
-The script outputs a comparison plot between the Deep Q-learning approach and the current state of the art that always tries to enforce maximum security.
+The script outputs a comparison plot between the Deep Q-learning approach and the current state of the art that always tries to enforce maximum security, in terms of the total collected rewards while in the process of learning.
 
