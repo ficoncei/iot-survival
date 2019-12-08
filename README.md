@@ -1,6 +1,6 @@
-# iot-survival
+# IoT-survival
 
-# What is iot-survival?
+# What is IoT-survival?
 iot-survival is a problem conception (a stochastic control optimisation problem) and solution that takes an IoT device energetically underfed by an energy harvester and makes optimal security decisions on security levels to use (actions) to ensure both energetic survival and assuring packet protection. Different levels will add different security overheads to packets being transmitted (see systemmodel.png).
 
 # Machine Learning for IoT device survival
@@ -9,8 +9,8 @@ A Deep Reinforcement Learning approach is used where an Actor-Critic method trai
 # Neural network approach
 The neural network has:
 - 2 input neurons to account for the current battery state and security level in use
-- 4 hidden layers with 6 neurons each (no under fitting, no over fitting)
-- 2 output layers with 7 output neurons each, corresponding to action selection preferences
+- 4 hidden layers with 6 neurons each
+- 2 output layers with 7 output neurons each, corresponding to action selection preferences (see Actor-Critic.png)
 
 # Training
 The training is done online by using the collected reward from each action selection as an input to the Mean Squared Error function , to compare with the current action preference given by the current neural network weight set.
